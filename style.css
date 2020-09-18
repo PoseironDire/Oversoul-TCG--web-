@@ -1,0 +1,90 @@
+body {
+  background-image: url("concrete.png");
+}
+#content-wrapper {
+  background-image: url("200.gif");
+}
+#misk {
+  background-image: url("ded.gif");
+  width: 1000;
+  height: 1000;
+}
+#logo {
+  display: flex;
+  justify-content: center;
+  margin: -250px;
+}
+#cards {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-flow: wrap;
+  margin: 20px;
+}
+#about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#fixed {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+header {
+  border-bottom-style: solid;
+  border-color: rgb(255, 0, 204);
+  border-width: 5px;
+  padding: 10px;
+  margin: -10px;
+  background-color: rgba(0, 0, 0, 0.75);
+}
+footer {
+  border-top-style: solid;
+  border-color: rgb(255, 0, 204);
+  border-width: 5px;
+  padding: 75px;
+  margin: -10px;
+  background-color: rgba(0, 0, 0, 0.75);
+}
+address {
+  display: flex;
+  justify-content: space-evenly;
+}
+h1 {
+  text-align: center;
+  font-family: "EB Garamond";
+  font-size: 60px;
+  color: #ffd3ff;
+}
+h2 {
+  text-align: center;
+  font-family: "EB Garamond";
+  font-size: 30px;
+  color: #ffd3ff;
+}
+h3 {
+  text-align: center;
+  font-family: "EB Garamond";
+  font-size: 20px;
+  color: #ffd3ff;
+}
+p {
+  padding: 50px;
+  margin: -5px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-family: "EB Garamond";
+  font-size: 35px;
+  color: #ff5bf1;
+}
+li,
+a {
+  font-family: "EB Garamond";
+  font-size: 25px;
+  color: white;
+  display: flex;
+  justify-content: center;
+}
