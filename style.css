@@ -4,15 +4,12 @@ body {
 #content-wrapper {
   background-image: url("200.gif");
 }
-#misk {
-  background-image: url("ded.gif");
-  width: 1000;
-  height: 1000;
+#personalbody {
+  background-image: url("bg.jpg");
 }
 #logo {
   display: flex;
   justify-content: center;
-  margin: -250px;
 }
 #cards {
   display: flex;
@@ -31,6 +28,10 @@ body {
   left: 0;
   bottom: 0;
   width: 100%;
+}
+nav {
+  display: flex;
+  justify-content: space-evenly;
 }
 header {
   border-bottom-style: solid;
@@ -70,6 +71,15 @@ h3 {
   font-size: 20px;
   color: #ffd3ff;
 }
+h4 {
+  border-bottom-style: solid;
+  border-top-style: solid;
+  border-color: rgb(255, 0, 204);
+  border-width: 2px;
+  padding: 10px;
+  margin: -10px;
+  background-color: rgba(0, 0, 0, 0.75);
+}
 p {
   padding: 50px;
   margin: -5px;
@@ -87,4 +97,25 @@ a {
   color: white;
   display: flex;
   justify-content: center;
+}
+.button {
+  padding: 15px 25px;
+  font-size: 24px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: #4caf50;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+a:hover {
+  color: rgb(100, 100, 100);
+}
+
+.button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
 }

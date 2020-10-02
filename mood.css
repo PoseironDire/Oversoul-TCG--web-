@@ -1,0 +1,16 @@
+figure {
+  display: flex;
+  justify-content: center;
+}
+header {
+  background-color: rgb(30, 57, 82);
+  margin: -10px;
+  display: flex;
+  justify-content: space-between;
+}
+#media {
+  background-color: rgb(50, 50, 50);
+}
+#PoseironDire {
+  align-self: center;
+}
