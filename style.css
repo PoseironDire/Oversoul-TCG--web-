@@ -17,7 +17,7 @@ body {
   flex-direction: row;
   justify-content: center;
   flex-flow: wrap;
-  margin: 20px;
+  margin: 40px;
 }
 #about {
   display: flex;
