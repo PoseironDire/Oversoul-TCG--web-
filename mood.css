@@ -8,9 +8,21 @@ header {
   display: flex;
   justify-content: space-between;
 }
+p {
+  font-family: "Impact";
+  font-size: 20px;
+  color: #ff5bf1;
+}
+table {
+  padding: 1%;
+}
 #media {
   background-color: rgb(50, 50, 50);
 }
 #PoseironDire {
   align-self: center;
+}
+#Car {
+  width: 70%;
+  height: 50%;
 }
